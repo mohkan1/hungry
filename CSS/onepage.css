@@ -104,11 +104,15 @@
 
 .element2 {
     width: 100%;
-    height: auto;
-    font-size: 16px;
+    height: 200px;
+    font-size: 30px;
     background-color: white;
     display: block;
     text-align: center
+}
+
+.element2 > aside {
+    margin-top: 20%;
 }
 
 .element1>.left {
