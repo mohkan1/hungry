@@ -104,15 +104,17 @@
 
 .element2 {
     width: 100%;
-    height: 200px;
+    height: 400px;
     font-size: 30px;
     background-color: white;
     display: block;
-    text-align: center
+    text-align: center;
+    background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
 }
 
 .element2 > aside {
-    margin-top: 20%;
+    line-height: 400px;
+
 }
 
 .element1>.left {
